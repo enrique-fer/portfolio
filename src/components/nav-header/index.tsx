@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import HomeIcon from "../../assets/icons/HomeIcon";
 import ExperienceIcon from "../../assets/icons/ExperienceIcon";
 import EducationIcon from "../../assets/icons/EducationIcon";
+import ContactIcon from "../../assets/icons/ContactIcon";
 import SkillsIcon from "../../assets/icons/SkillsIcon";
 
 export default function NavigationHeader({
@@ -31,6 +32,9 @@ export default function NavigationHeader({
           </Link>
           <Link to="/experience" title="Experience">
             <ExperienceIcon  />
+          </Link>
+          <Link to="/contact" title="Contact">
+            <ContactIcon  />
           </Link>
           <Link to="/skills" title="Skills">
             <SkillsIcon  />
