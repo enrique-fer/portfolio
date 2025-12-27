@@ -5,6 +5,7 @@ import Experience from "../../pages/Experience";
 import Education from "../../pages/Education";
 import Contact from "../../pages/Contact";
 import Skills from "../../pages/Skills";
+import Projects from "../../pages/Projects";
 
 export interface RouteElement {
   path: string;
@@ -13,11 +14,12 @@ export interface RouteElement {
 
 export default function CoreRouter() {
   const routes: RouteElement[] = [
-    { path: "/", element: <Home /> },
+    { path: "*", element: <Home /> },
     { path: "/education", element: <Education /> },
     { path: "/experience", element: <Experience /> },
     { path: "/skills", element: <Skills /> },
     { path: "/contact", element: <Contact /> },
+    { path: "/projects", element: <Projects />}
   ];
 
   return (
