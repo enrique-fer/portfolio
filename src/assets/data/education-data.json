@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "type": "degree",
+    "institution": "University Name",
+    "degree": "Master's Degree in Computer Science",
+    "field": "Software Engineering",
+    "duration": "2021 - 2023",
+    "location": "City, Country",
+    "grade": "GPA: 3.8/4.0",
+    "description": "Advanced studies in software architecture, algorithms, and distributed systems.",
+    "courses": [
+      "Advanced Algorithms",
+      "Cloud Computing",
+      "Machine Learning",
+      "Software Architecture"
+    ],
+    "achievements": [
+      "Dean's List all semesters",
+      "Published research paper on distributed systems",
+      "Led capstone project team"
+    ]
+  },
+  {
+    "id": 2,
+    "type": "course",
+    "institution": "University Name",
+    "degree": "Bachelor's Degree in Computer Science",
+    "field": "Computer Science",
+    "duration": "2017 - 2021",
+    "location": "City, Country",
+    "grade": "GPA: 3.6/4.0",
+    "description": "Comprehensive foundation in computer science fundamentals, programming, and mathematics.",
+    "courses": [
+      "Data Structures",
+      "Database Systems",
+      "Web Development",
+      "Operating Systems"
+    ],
+    "achievements": [
+      "Graduated with Honors",
+      "President of Computer Science Club",
+      "Completed 3 internships"
+    ]
+  },
+  {
+    "id": 3,
+    "type": "school",
+    "institution": "High School Name",
+    "degree": "High School Diploma",
+    "field": "Science & Technology",
+    "duration": "2013 - 2017",
+    "location": "City, Country",
+    "grade": "GPA: 3.9/4.0",
+    "description": "Focus on mathematics, physics, and computer science courses.",
+    "courses": [
+      "Advanced Mathematics",
+      "Physics",
+      "Introduction to Programming",
+      "Chemistry"
+    ],
+    "achievements": [
+      "Valedictorian",
+      "National Merit Scholar",
+      "Science Fair Winner"
+    ]
+  },
+  {
+    "id": 4,
+    "type": "certification",
+    "institution": "AWS",
+    "degree": "AWS Certified Solutions Architect",
+    "field": "Cloud Computing",
+    "duration": "2023",
+    "location": "Online",
+    "grade": "Professional Level",
+    "description": "Comprehensive certification demonstrating expertise in designing distributed systems on AWS.",
+    "courses": [
+      "EC2 & Elastic Load Balancing",
+      "S3 & CloudFront",
+      "RDS & DynamoDB",
+      "VPC & Security Groups"
+    ],
+    "achievements": [
+      "Passed with 90% score",
+      "Completed hands-on labs",
+      "Built sample architecture projects"
+    ]
+  }
+]

@@ -1,8 +1,8 @@
 import { useState } from "react";
-import ExperienceHeader from "./experience/ExperienceHeader";
-import TechnologiesList from "./experience/TechnologiesList";
-import AchievementsList from "./experience/AchievementsList";
-import SummaryPanel from "./experience/SummaryPanel";
+import ExperienceHeader from "./ExperienceHeader";
+import TechnologiesList from "./TechnologiesList";
+import AchievementsList from "./AchievementsList";
+import SummaryPanel from "./SummaryPanel";
 
 interface ExperienceItemProps {
   company: string;
