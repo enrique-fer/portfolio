@@ -1,0 +1,30 @@
+[
+    {
+        "title": "Education",
+        "description": "Explore my academic background and knowledge",
+        "path": "/education",
+        "icon": "🎓",
+        "color": "from-[#1872A0]/90 to-[#1872A0]/70 hover:from-[#1872A0] hover:to-[#1565a8] border-[#1872A0]/40"
+    },
+    {
+        "title": "Experience",
+        "description": "Discover my professional journey and achievements",
+        "path": "/experience",
+        "icon": "💼",
+        "color": "from-[#2089b8]/90 to-[#1872A0]/70 hover:from-[#2089b8] hover:to-[#1872A0] border-[#2089b8]/40"
+    },
+    {
+        "title": "Skills",
+        "description": "View my technical expertise and capabilities",
+        "path": "/skills",
+        "icon": "⚡",
+        "color": "from-[#156890]/90 to-[#1872A0]/70 hover:from-[#156890] hover:to-[#1872A0] border-[#156890]/40"
+    },
+    {
+        "title": "Contact",
+        "description": "Let's connect and collaborate together",
+        "path": "/contact",
+        "icon": "💬",
+        "color": "from-[#1872A0]/80 to-[#2089b8]/70 hover:from-[#1872A0] hover:to-[#2089b8] border-[#1872A0]/40"
+    }
+]

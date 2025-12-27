@@ -1,11 +1,7 @@
-import CoreRouter from "./components/navigation"
+import CoreRouter from "./components/navigation";
 
 function App() {
-  return (
-    <>
-      <CoreRouter />
-    </>
-  )
+  return <CoreRouter />;
 }
 
-export default App
+export default App;
