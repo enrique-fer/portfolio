@@ -33,11 +33,11 @@ export default function NavigationHeader({
           <Link to="/experience" title="Experience">
             <ExperienceIcon  />
           </Link>
-          <Link to="/contact" title="Contact">
-            <ContactIcon  />
-          </Link>
           <Link to="/skills" title="Skills">
             <SkillsIcon  />
+          </Link>
+          <Link to="/contact" title="Contact">
+            <ContactIcon  />
           </Link>
         </div>
       </div>
