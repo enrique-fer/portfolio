@@ -25,11 +25,39 @@ export default function EducationHeader({
         </h3>
         {/* Click indicator - arrow points right for left cards, left for right cards */}
         <span
-          className={`text-[#1872A0] text-sm transition-transform duration-300 flex-shrink-0 ${
+          className={`text-[#1872A0] transition-transform duration-300 flex-shrink-0 ${
             showDetails ? "rotate-180" : ""
           }`}
         >
-          {isLeft ? "→" : "←"}
+          {isLeft ? (
+            <svg
+              className="w-5 h-5"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M13 7l5 5m0 0l-5 5m5-5H6"
+              />
+            </svg>
+          ) : (
+            <svg
+              className="w-5 h-5"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M11 17l-5-5m0 0l5-5m-5 5h12"
+              />
+            </svg>
+          )}
         </span>
       </div>
       <div className="flex items-center gap-2">
