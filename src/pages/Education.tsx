@@ -1,23 +1,10 @@
 import NavigationHeader from "../components/nav-header";
 import EducationTimelineItem from "../components/education/EducationTimelineItem";
 import educationData from "../assets/data/education-data.json";
+import type { EducationData } from "../types/education";
 
-interface Education {
-  id: number;
-  type: string;
-  institution: string;
-  degree: string;
-  field: string;
-  duration: string;
-  location: string;
-  grade: string;
-  description: string;
-  courses: string[];
-  achievements: string[];
-}
-
-export default function Education() {
-  const education: Education[] = educationData;
+export default function EducationPage() {
+  const education: EducationData[] = educationData;
 
   return (
     <>
