@@ -1,9 +1,4 @@
-export interface TypeConfig {
-  bg: string;
-  text: string;
-  label: string;
-  icon: string;
-}
+import type { TypeConfig } from "../types/education";
 
 const typeColors: Record<string, TypeConfig> = {
   degree: {

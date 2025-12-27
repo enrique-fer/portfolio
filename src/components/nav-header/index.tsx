@@ -3,6 +3,7 @@ import HomeIcon from "../../assets/icons/HomeIcon";
 import ExperienceIcon from "../../assets/icons/ExperienceIcon";
 import EducationIcon from "../../assets/icons/EducationIcon";
 import ContactIcon from "../../assets/icons/ContactIcon";
+import SkillsIcon from "../../assets/icons/SkillsIcon";
 
 export default function NavigationHeader({
   showName = true,
@@ -34,6 +35,9 @@ export default function NavigationHeader({
           </Link>
           <Link to="/contact" title="Contact">
             <ContactIcon  />
+          </Link>
+          <Link to="/skills" title="Skills">
+            <SkillsIcon  />
           </Link>
         </div>
       </div>

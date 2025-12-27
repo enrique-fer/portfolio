@@ -4,7 +4,7 @@ import navCards from "../assets/data/cards-data.json";
 import IntroductionSection from "../components/home/IntroductionSection";
 import NavigationCardsGrid from "../components/home/NavigationCardsGrid";
 
-export default function Home() {
+export default function HomePage() {
   const navigate = useNavigate();
 
   const handleCardClick = (path: string) => {

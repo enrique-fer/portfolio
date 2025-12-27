@@ -2,34 +2,16 @@ import NavigationHeader from "../components/nav-header";
 import TimelineItem from "../components/experience/TimelineItem";
 import CareerSummary from "../components/experience/CareerSummary";
 import experienceData from "../assets/data/experience-data.json";
+import careerStatsData from "../assets/data/career-stats.json";
+import type { Experience, CareerStats } from "../types/experience";
 
-interface Experience {
-  id: number;
-  company: string;
-  position: string;
-  duration: string;
-  location: string;
-  description: string;
-  summary: string;
-  technologies: string[];
-  achievements: string[];
-}
-
-export default function Experience() {
+export default function ExperiencePage() {
   const experiences: Experience[] = experienceData;
 
-  // Calculate career summary stats
-  const careerStats = {
-    totalYears: "5+",
+  // Load career summary stats
+  const careerStats: CareerStats = {
+    ...careerStatsData,
     totalCompanies: experiences.length,
-    totalProjects: "20+",
-    keySkills: [
-      "Full Stack Development",
-      "Team Leadership",
-      "System Architecture",
-      "Agile Methodology",
-      "CI/CD",
-    ],
   };
 
   return (
@@ -53,7 +35,7 @@ export default function Experience() {
             totalYears={careerStats.totalYears}
             totalCompanies={careerStats.totalCompanies}
             totalProjects={careerStats.totalProjects}
-            keySkills={careerStats.keySkills}
+            coreCompetencies={careerStats.coreCompetencies}
           />
 
           {/* Timeline */}
