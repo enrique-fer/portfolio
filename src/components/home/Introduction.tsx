@@ -25,7 +25,7 @@ export default function Introduction() {
       </div>
 
       <p className="text-base sm:text-lg text-gray-600 leading-relaxed">
-        (TBD) I create beautiful, functional, and user-centered digital experiences. Passionate about crafting code and bringing ideas to life.
+        I am active and curious, always eager to learn and challenge myself to grow both personally and professionally. From my work experience, I have developed the ability to understand different perspectives and extract the best from each to collaboratively achieve optimal solutions. Working on international projects where diverse cultures and working styles converge has taught me to find common ground, which has significantly broadened my perspective as a developer.
       </p>
 
       <div className="pt-4 flex flex-col sm:flex-row gap-4 items-center lg:items-start">
