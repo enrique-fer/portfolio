@@ -23,7 +23,7 @@ export default function TimelineItem({
   description,
   summary,
   technologies,
-  achievements
+  achievements,
 }: ExperienceItemProps) {
   const [showSummary, setShowSummary] = useState(false);
 
@@ -31,8 +31,8 @@ export default function TimelineItem({
     <div className="pb-6">
       <div className="flex gap-4 items-start">
         {/* Content Card */}
-        <div 
-          className="min-w-160 flex-1 bg-white border border-gray-200 border-t-4 border-t-[#1872A0] rounded-2xl p-6 shadow-sm hover:shadow-md transition-all duration-300 cursor-pointer"
+        <div
+          className="min-w-180 flex-1 bg-white border border-gray-200 border-t-4 border-t-[#1872A0] rounded-2xl p-6 shadow-sm hover:shadow-md transition-all duration-300 cursor-pointer"
           onClick={() => setShowSummary(!showSummary)}
         >
           <ExperienceHeader
@@ -49,19 +49,23 @@ export default function TimelineItem({
           </p>
 
           {/* Technologies and Achievements in the same row */}
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
-            <TechnologiesList technologies={technologies} />
-            <AchievementsList achievements={achievements} />
+          <div className="grid grid-cols-1 lg:grid-cols-5 gap-4">
+            <div className="col-span-1 lg:col-span-2">
+              <TechnologiesList technologies={technologies} />
+            </div>
+            <div className="col-span-1 lg:col-span-3">
+              <AchievementsList achievements={achievements} />
+            </div>
           </div>
         </div>
 
         {/* Summary Panel - Appears on the right */}
-        <div 
+        <div
           className={`transition-all duration-300 ease-in-out ${
-            showSummary ? 'w-80 opacity-100' : 'w-0 opacity-0'
+            showSummary ? "w-80 opacity-100" : "w-0 opacity-0"
           }`}
         >
-          <div className={`${showSummary ? 'block' : 'hidden'}`}>
+          <div className={`min-w-78 w-fit max-w-100 ${showSummary ? "block" : "hidden"}`}>
             <SummaryPanel summary={summary} />
           </div>
         </div>

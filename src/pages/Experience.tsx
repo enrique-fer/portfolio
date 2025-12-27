@@ -2,16 +2,20 @@ import NavigationHeader from "../components/nav-header";
 import TimelineItem from "../components/experience/TimelineItem";
 import CareerSummary from "../components/experience/CareerSummary";
 import experienceData from "../assets/data/experience-data.json";
+import projectsData from "../assets/data/projects-data.json";
 import careerStatsData from "../assets/data/career-stats.json";
+import { calculateYearsOfExperience, countUniqueCompanies } from "../utils/experienceUtils";
 import type { Experience, CareerStats } from "../types/experience";
 
 export default function ExperiencePage() {
   const experiences: Experience[] = experienceData;
 
-  // Load career summary stats
+  // Load career summary stats with dynamic calculations
   const careerStats: CareerStats = {
-    ...careerStatsData,
-    totalCompanies: experiences.length,
+    totalYears: calculateYearsOfExperience(careerStatsData.careerStartDate),
+    totalProjects: `${projectsData.length}+`,
+    totalCompanies: countUniqueCompanies(experiences),
+    coreCompetencies: careerStatsData.coreCompetencies,
   };
 
   return (
