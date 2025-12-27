@@ -6,7 +6,6 @@ export interface EducationData {
   field: string;
   duration: string;
   location: string;
-  grade: string;
   description: string;
   courses: string[];
   achievements: string[];

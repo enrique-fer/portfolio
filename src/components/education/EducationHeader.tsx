@@ -3,7 +3,6 @@ interface EducationHeaderProps {
   institution: string;
   location: string;
   duration: string;
-  grade: string;
   showDetails: boolean;
   isLeft: boolean;
 }
@@ -13,7 +12,6 @@ export default function EducationHeader({
   institution,
   location,
   duration,
-  grade,
   showDetails,
   isLeft,
 }: EducationHeaderProps) {
@@ -69,8 +67,6 @@ export default function EducationHeader({
       </div>
       <div className="flex items-center gap-1.5 text-xs text-gray-500">
         <span>{duration}</span>
-        <span className="text-gray-400">•</span>
-        <span className="text-[#1872A0] font-medium">{grade}</span>
       </div>
     </div>
   );

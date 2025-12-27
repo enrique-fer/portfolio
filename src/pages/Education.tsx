@@ -1,10 +1,13 @@
 import NavigationHeader from "../components/nav-header";
+import EducationSummary from "../components/education/EducationSummary";
 import EducationTimelineItem from "../components/education/EducationTimelineItem";
 import educationData from "../assets/data/education-data.json";
+import { calculateEducationStats } from "../utils/educationUtils";
 import type { EducationData } from "../types/education";
 
 export default function EducationPage() {
   const education: EducationData[] = educationData;
+  const stats = calculateEducationStats(education);
 
   return (
     <>
@@ -22,6 +25,9 @@ export default function EducationPage() {
             </p>
           </div>
 
+          {/* Education Summary */}
+          <EducationSummary stats={stats} />
+
           {/* Timeline */}
           <div className="relative">
             {education.map((edu, index) => (
@@ -33,7 +39,6 @@ export default function EducationPage() {
                 field={edu.field}
                 duration={edu.duration}
                 location={edu.location}
-                grade={edu.grade}
                 description={edu.description}
                 courses={edu.courses}
                 achievements={edu.achievements}
