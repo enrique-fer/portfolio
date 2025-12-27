@@ -3,6 +3,7 @@ import { Route, Routes } from "react-router-dom";
 import Home from "../../pages/Home";
 import Experience from "../../pages/Experience";
 import Education from "../../pages/Education";
+import Contact from "../../pages/Contact";
 
 export interface RouteElement {
   path: string;
@@ -14,6 +15,7 @@ export default function CoreRouter() {
     { path: "/", element: <Home /> },
     { path: "/education", element: <Education /> },
     { path: "/experience", element: <Experience /> },
+    { path: "/contact", element: <Contact /> },
   ];
 
   return (
