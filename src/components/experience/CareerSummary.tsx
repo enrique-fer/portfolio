@@ -2,14 +2,14 @@ interface CareerSummaryProps {
   totalYears: string;
   totalCompanies: number;
   totalProjects: string;
-  keySkills: string[];
+  coreCompetencies: string[];
 }
 
 export default function CareerSummary({
   totalYears,
   totalCompanies,
   totalProjects,
-  keySkills,
+  coreCompetencies,
 }: CareerSummaryProps) {
   return (
     <div className="mb-12 bg-white border-2 border-[#1872A0]/20 rounded-2xl p-8 shadow-lg">
@@ -55,7 +55,7 @@ export default function CareerSummary({
           Core Competencies:
         </h3>
         <div className="flex flex-wrap justify-center gap-2">
-          {keySkills.map((skill, index) => (
+          {coreCompetencies.map((skill, index) => (
             <span
               key={index}
               className="px-4 py-2 bg-[#1872A0] text-white rounded-lg text-sm font-medium"
