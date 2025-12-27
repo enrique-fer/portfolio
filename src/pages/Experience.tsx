@@ -23,7 +23,7 @@ export default function ExperiencePage() {
       <NavigationHeader />
       
       <div className="min-h-screen py-12 px-6 sm:px-8 lg:px-12">
-        <div className="max-w-4xl mx-auto">
+        <div className="max-w-6xl mx-auto">
           {/* Page Header */}
           <div className="mb-12 text-center">
             <h1 className="text-4xl sm:text-5xl font-bold text-gray-800 mb-4">

@@ -7,7 +7,7 @@
     "location": "Madrid, Community of Madrid, Spain",
     "description": "Assistant lead to the frontend development team.",
     "summary": "In this role, I have taken on greater responsibilities in leading the frontend development team, overseeing project progress, and ensuring the delivery of high-quality software solutions. I collaborate closely with cross-functional teams, including designers, backend developers, and product managers, to align development efforts with business goals. My focus is on implementing best practices in frontend architecture, optimizing performance, and mentoring team members to enhance their skills and productivity.",
-    "technologies": ["React", "TypeScript", "Dev Vite", "Azure DevOps","Tailwind", "Apiary", "Figma", "Tanstack", "Recharts", "React Flow", "Zustand"],
+    "technologies": ["React", "TypeScript", "Vite Test", "Azure DevOps","Tailwind", "Apiary", "Figma", "Tanstack", "Recharts", "React Flow", "Zustand"],
     "achievements": [
       "Spearheaded the adoption of cutting-edge frontend technologies, enhancing application performance and user experience.",
       "Architected and implemented a modular component library, reducing development time for new features by 30%.",

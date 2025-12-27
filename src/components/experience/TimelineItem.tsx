@@ -28,11 +28,11 @@ export default function TimelineItem({
   const [showSummary, setShowSummary] = useState(false);
 
   return (
-    <div className="pb-6">
+    <div className="pb-10">
       <div className="flex gap-4 items-start">
         {/* Content Card */}
         <div
-          className="min-w-180 flex-1 bg-white border border-gray-200 border-t-4 border-t-[#1872A0] rounded-2xl p-6 shadow-sm hover:shadow-md transition-all duration-300 cursor-pointer"
+          className="min-w-180 flex-1 bg-white border border-gray-200 border-t-4 border-t-[#1872A0] rounded-2xl p-8 shadow-sm hover:shadow-md transition-all duration-300 cursor-pointer"
           onClick={() => setShowSummary(!showSummary)}
         >
           <ExperienceHeader
@@ -44,12 +44,12 @@ export default function TimelineItem({
           />
 
           {/* Description */}
-          <p className="text-gray-700 text-sm leading-relaxed mb-3">
+          <p className="text-gray-700 text-sm leading-relaxed mb-4">
             {description}
           </p>
 
           {/* Technologies and Achievements in the same row */}
-          <div className="grid grid-cols-1 lg:grid-cols-5 gap-4">
+          <div className="grid grid-cols-1 lg:grid-cols-5 gap-6">
             <div className="col-span-1 lg:col-span-2">
               <TechnologiesList technologies={technologies} />
             </div>
