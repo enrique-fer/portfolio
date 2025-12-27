@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "company": "Company Name",
+    "position": "Senior Software Developer",
+    "duration": "Jan 2023 - Present",
+    "location": "City, Country",
+    "description": "Leading development of web applications using modern technologies. Mentoring junior developers and architecting scalable solutions.",
+    "summary": "In this role, I spearheaded the development of critical features for the main product, working closely with product managers and designers. Led code reviews, established coding standards, and mentored a team of junior developers. Successfully migrated legacy systems to modern architecture.",
+    "technologies": ["React", "TypeScript", "Node.js", "AWS"],
+    "achievements": [
+      "Improved application performance by 40%",
+      "Led team of 5 developers",
+      "Implemented CI/CD pipeline"
+    ]
+  },
+  {
+    "id": 2,
+    "company": "Previous Company",
+    "position": "Full Stack Developer",
+    "duration": "Jun 2021 - Dec 2022",
+    "location": "City, Country",
+    "description": "Developed and maintained full-stack applications. Collaborated with cross-functional teams to deliver high-quality software solutions.",
+    "summary": "Built and maintained multiple client-facing applications from frontend to backend. Participated in sprint planning and daily standups following Agile methodology. Worked on API development, database optimization, and implementing new features based on user feedback.",
+    "technologies": ["JavaScript", "React", "Python", "PostgreSQL"],
+    "achievements": [
+      "Built 3 major features from scratch",
+      "Reduced bug reports by 30%",
+      "Optimized database queries"
+    ]
+  },
+  {
+    "id": 3,
+    "company": "First Company",
+    "position": "Junior Developer",
+    "duration": "Jan 2020 - May 2021",
+    "location": "City, Country",
+    "description": "Started career building web applications and learning industry best practices. Worked on various projects under senior developer guidance.",
+    "summary": "Began my professional journey contributing to various web development projects. Learned version control with Git, responsive design principles, and JavaScript frameworks. Actively participated in code reviews and team meetings to understand best practices and industry standards.",
+    "technologies": ["HTML", "CSS", "JavaScript", "Git"],
+    "achievements": [
+      "Successfully completed 10+ projects",
+      "Learned Agile methodology",
+      "Contributed to open source"
+    ]
+  }
+]
