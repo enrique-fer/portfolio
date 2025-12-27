@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import HomeIcon from "../../assets/icons/HomeIcon";
+import ExperienceIcon from "../../assets/icons/ExperienceIcon";
 
 export default function NavigationHeader({
   showName = true,
@@ -18,10 +19,13 @@ export default function NavigationHeader({
               <span>Software Developer</span>
             </div>
           </div>
-        ) : null}
+        ) : <div></div>}
         <div className="flex gap-4 px-6 py-2 border border-[4px] border-[#1872A0] h-[36px] rounded-full items-center">
           <Link to="/" title="Home">
             <HomeIcon />
+          </Link>
+          <Link to="/experience" title="Experience">
+            <ExperienceIcon  />
           </Link>
         </div>
       </div>
