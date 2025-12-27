@@ -1,47 +1,64 @@
 [
   {
-    "id": 1,
-    "company": "Company Name",
+    "id": 4,
+    "company": "ViewNext (IBM Subsidiary)",
     "position": "Senior Software Developer",
-    "duration": "Jan 2023 - Present",
-    "location": "City, Country",
-    "description": "Leading development of web applications using modern technologies. Mentoring junior developers and architecting scalable solutions.",
-    "summary": "In this role, I spearheaded the development of critical features for the main product, working closely with product managers and designers. Led code reviews, established coding standards, and mentored a team of junior developers. Successfully migrated legacy systems to modern architecture.",
-    "technologies": ["React", "TypeScript", "Node.js", "AWS"],
+    "duration": "Dec 2025 - Present",
+    "location": "Madrid, Community of Madrid, Spain",
+    "description": "Assistant lead to the frontend development team.",
+    "summary": "In this role, I have taken on greater responsibilities in leading the frontend development team, overseeing project progress, and ensuring the delivery of high-quality software solutions. I collaborate closely with cross-functional teams, including designers, backend developers, and product managers, to align development efforts with business goals. My focus is on implementing best practices in frontend architecture, optimizing performance, and mentoring team members to enhance their skills and productivity.",
+    "technologies": ["React", "TypeScript", "Vite Test", "Azure DevOps","Tailwind", "Apiary", "Figma", "Tanstack", "Recharts", "React Flow", "Zustand"],
     "achievements": [
-      "Improved application performance by 40%",
-      "Led team of 5 developers",
-      "Implemented CI/CD pipeline"
-    ]
-  },
-  {
-    "id": 2,
-    "company": "Previous Company",
-    "position": "Full Stack Developer",
-    "duration": "Jun 2021 - Dec 2022",
-    "location": "City, Country",
-    "description": "Developed and maintained full-stack applications. Collaborated with cross-functional teams to deliver high-quality software solutions.",
-    "summary": "Built and maintained multiple client-facing applications from frontend to backend. Participated in sprint planning and daily standups following Agile methodology. Worked on API development, database optimization, and implementing new features based on user feedback.",
-    "technologies": ["JavaScript", "React", "Python", "PostgreSQL"],
-    "achievements": [
-      "Built 3 major features from scratch",
-      "Reduced bug reports by 30%",
-      "Optimized database queries"
+      "Spearheaded the adoption of cutting-edge frontend technologies, enhancing application performance and user experience.",
+      "Architected and implemented a modular component library, reducing development time for new features by 30%.",
+      "Led cross-functional teams in agile environments, fostering collaboration and ensuring timely delivery of high-quality software solutions.",
+      "Mentored junior developers, facilitating their professional growth and improving overall team competency."
     ]
   },
   {
     "id": 3,
-    "company": "First Company",
-    "position": "Junior Developer",
-    "duration": "Jan 2020 - May 2021",
-    "location": "City, Country",
-    "description": "Started career building web applications and learning industry best practices. Worked on various projects under senior developer guidance.",
-    "summary": "Began my professional journey contributing to various web development projects. Learned version control with Git, responsive design principles, and JavaScript frameworks. Actively participated in code reviews and team meetings to understand best practices and industry standards.",
-    "technologies": ["HTML", "CSS", "JavaScript", "Git"],
+    "company": "ViewNext (IBM Subsidiary)",
+    "position": "Mid Software Developer",
+    "duration": "Jan 2025 - Dec 2025",
+    "location": "Madrid, Community of Madrid, Spain",
+    "description": "Migration of the legacy application (OJET) to a moder React-based architecture.",
+    "summary": "In this role, I further developed my skills in frontend development, focusing on React and TypeScript. I collaborated closely with designers and with the client itself (PO & BA) to ensure the implementation of user-friendly interfaces and worked with backend developers to integrate APIs effectively. Additionally, I have defined and implemented the new architectures and generic components and behaviours. I took on mentoring responsibilities, helping junior developers enhance their skills and navigate project challenges.",
+    "technologies": ["React", "TypeScript", "Dev Vite", "Azure DevOps","Tailwind", "Apiary", "Figma", "Tanstack", "Recharts", "React Flow"],
     "achievements": [
-      "Successfully completed 10+ projects",
-      "Learned Agile methodology",
-      "Contributed to open source"
+      "Led the migration of a legacy application to a modern React-based architecture, improving performance and maintainability.",
+      "Implemented a design system that standardized UI components across multiple projects, enhancing consistency and development speed.",
+      "Ineterviewed and mentored junior developers, helping them improve their coding skills and successfully integrate into the team.",
+      "Worked closely with the client to gather feedback and iteratively improve the application based on user needs."
+    ]
+  },
+  {
+    "id": 2,
+    "company": "ViewNext (IBM Subsidiary)",
+    "position": "Junior Web Developer",
+    "duration": "Jul 2022 - Dec 2024",
+    "location": "Madrid, Community of Madrid, Spain",
+    "description": "Development of new functionallites as lead on my own work team.",
+    "summary": "In this role i gained self knowledge and confidence to take decisions and lead a small team of developers. I was in charge of the UX/UI implementation following atomic design principles, creating reusable components and ensuring consistency across the application. I collaborated closely with designers and backend developers to deliver seamless user experiences. I also reviewed api contract definitions and implementation with the backend team to ensure smooth integration and proper functionality delivery.",
+    "technologies": ["OJET", "TypeScript", "Karma", "Sonar Qube", "Azure DevOps","SCSS", "Apiary", "JIRA", "Spring Boot"],
+    "achievements": [
+      "Lead of a development team of 5 members.",
+      "Improved application performance by optimizing code and reducing load times.",
+      "Migration of the old UX design to a new, reusable component-based atomic design.",
+      "Implemented role based security and dynamic content rendering based on user permissions."
+    ]
+  },
+  {
+    "id": 1,
+    "company": "ViewNext (IBM Subsidiary)",
+    "position": "Intern Web Developer",
+    "duration": "Sep 2021 - Jun 2022",
+    "location": "Madrid, Community of Madrid, Spain",
+    "description": "Asistant in the development and maintenance of a web applications using Angular.",
+    "summary": "In this role, I gained hands-on experience in web development, learning the proper Application Lifecycle Management (ALM) processes and best practices in a professional environment. I worked closely with senior developers, which helped me enhance my coding skills and understand the importance of teamwork in software development.",
+    "technologies": ["Angular", "TypeScript", "JEST", "Sonar Qube", "Jenkins", "HTML", "CSS", "Git"],
+    "achievements": [
+      "Successfully contributed to the implementation of an interactive map with Google Maps API.",
+      "Received positive feedback from senior developers for my proactive approach and eagerness to learn."
     ]
   }
 ]
