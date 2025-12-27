@@ -62,9 +62,9 @@ export default function ProjectCard({ project }: ProjectCardProps) {
           <h4 className="text-sm font-semibold text-gray-700 mb-2">Key Responsibilities</h4>
           <ul className="space-y-1">
             {project.responsibilities.map((responsibility, index) => (
-              <li key={index} className="text-sm text-gray-600 flex items-start gap-2">
-                <span className="text-[#1872A0] mt-1">•</span>
-                <span className="flex-1">{responsibility}</span>
+              <li key={index} className="text-sm text-gray-600 flex gap-2">
+                <span className="text-[#1872A0] pt-0.5">•</span>
+                <span className="flex-1 self-center">{responsibility}</span>
               </li>
             ))}
           </ul>

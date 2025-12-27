@@ -1,62 +1,67 @@
 [
   {
-    "id": 1,
-    "title": "E-Commerce Platform",
-    "company": "Tech Solutions Inc",
-    "duration": "Jan 2024 - Present",
-    "goal": "Develop a scalable e-commerce platform with advanced inventory management and real-time analytics to handle 10,000+ concurrent users.",
+    "id": 3,
+    "title": "Arcade Risk",
+    "company": "ViewNext (IBM Subsidiary)",
+    "duration": "Apr 2025 - Present",
+    "goal": "Create the best underwriting platform for enterprise insurance.",
     "technologies": [
       "React",
-      "Node.js",
-      "PostgreSQL",
-      "Redis",
-      "AWS",
-      "Docker"
+      "Typescript",
+      "Azure",
+      "Apiary",
+      "Figma",
+      "Vite Test",
+      "Tantack",
+      "Recharts",
+      "React Flow",
+      "Zustand"
     ],
     "responsibilities": [
-      "Architected the frontend using React and TypeScript",
-      "Implemented real-time inventory tracking system",
-      "Optimized database queries reducing load time by 40%",
-      "Led code reviews and mentored junior developers"
+      "Leading frontend development using React and Typescript to build scalable and maintainable user interfaces.",
+      "Collaborating with UX/UI designers to implement responsive designs and ensure a seamless user experience.",
+      "Mentoring junior developers and conducting code reviews to maintain code quality and best practices.",
+      "Working closely with client stakeholders to gather requirements and deliver solutions that meet business needs."
     ]
   },
   {
     "id": 2,
-    "title": "Healthcare Management System",
-    "company": "MedTech Solutions",
-    "duration": "Jun 2023 - Dec 2023",
-    "goal": "Create a HIPAA-compliant patient management system to streamline appointment scheduling and medical records access for healthcare providers.",
+    "title": "Arcade Risk",
+    "company": "ViewNext (IBM Subsidiary)",
+    "duration": "Jul 2022 - Mar 2025",
+    "goal": "Create the best underwriting platform for enterprise insurance.",
     "technologies": [
-      "Vue.js",
-      "Python",
-      "Django",
-      "MySQL",
-      "Azure"
+      "OJET",
+      "Typescript",
+      "ALM",
+      "Apiary",
+      "Spring Boot",
+      "Azure",
+      "Karma"
     ],
     "responsibilities": [
-      "Developed secure patient portal with end-to-end encryption",
-      "Integrated third-party appointment scheduling APIs",
-      "Implemented role-based access control system",
-      "Ensured HIPAA compliance across all features"
+      "Developed and maintained key features of the underwriting platform using OJET and Typescript.",
+      "Collaborated with cross-functional teams to design and implement RESTful APIs with Spring Boot.",
+      "Leading own team of 5 developers, ensuring timely delivery of high-quality software"
     ]
   },
   {
-    "id": 3,
-    "title": "Real-Time Collaboration Tool",
-    "duration": "Jan 2023 - May 2023",
-    "goal": "Build a collaborative workspace tool with real-time document editing, video conferencing, and project management features.",
+    "id": 1,
+    "title": "Iberdrola Electric Vehicle Charging Station Management System",
+    "company": "ViewNext (IBM Subsidiary)",
+    "duration": "Sep 2021 - Jun 2022",
+    "goal": "Create a comprehensive management system for electric vehicle charging stations, enabling users to locate, reserve, and pay for charging services seamlessly.",
     "technologies": [
-      "React",
-      "WebSocket",
-      "MongoDB",
-      "Express",
-      "WebRTC"
+      "Angular",
+      "JEST",
+      "Typescript",
+      "Jenkins",
+      "SonarQube"
     ],
     "responsibilities": [
-      "Implemented WebSocket-based real-time collaboration features",
-      "Built video conferencing module using WebRTC",
-      "Designed and developed RESTful APIs",
-      "Created responsive UI components library"
+      "Developed user-friendly interfaces with Angular.",
+      "Increased test coverage to 90% using JEST.",
+      "UX implementation improvements based on user feedback."
     ]
   }
 ]
