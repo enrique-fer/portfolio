@@ -12,7 +12,6 @@ interface EducationItemProps {
   field: string;
   duration: string;
   location: string;
-  grade: string;
   description: string;
   courses: string[];
   achievements: string[];
@@ -27,7 +26,6 @@ export default function EducationTimelineItem({
   field,
   duration,
   location,
-  grade,
   description,
   courses,
   achievements,
@@ -54,7 +52,6 @@ export default function EducationTimelineItem({
                 institution={institution}
                 location={location}
                 duration={duration}
-                grade={grade}
                 showDetails={showDetails}
                 onClick={() => setShowDetails(!showDetails)}
                 icon={colorConfig.icon}

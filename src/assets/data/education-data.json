@@ -1,90 +1,183 @@
 [
   {
-    "id": 1,
-    "type": "degree",
-    "institution": "University Name",
-    "degree": "Master's Degree in Computer Science",
-    "field": "Software Engineering",
-    "duration": "2021 - 2023",
-    "location": "City, Country",
-    "grade": "GPA: 3.8/4.0",
-    "description": "Advanced studies in software architecture, algorithms, and distributed systems.",
+    "id": 9,
+    "type": "course",
+    "institution": "Udemy Business",
+    "degree": "React: from zero to expert (Hooks & MERN)",
+    "field": "Web Development",
+    "duration": "2023",
+    "location": "Online",
+    "description": "Comprehensive course on React, covering fundamentals to advanced topics including Hooks and MERN stack development. Emphasized building dynamic and responsive web applications using modern React practices.",
     "courses": [
-      "Advanced Algorithms",
-      "Cloud Computing",
-      "Machine Learning",
-      "Software Architecture"
+      "React Basics",
+      "React Hooks",
+      "MERN Stack Development",
+      "State Management",
+      "Routing with React Router",
+      "Deployment Strategies"
     ],
-    "achievements": [
-      "Dean's List all semesters",
-      "Published research paper on distributed systems",
-      "Led capstone project team"
-    ]
+    "achievements": []
   },
   {
-    "id": 2,
-    "type": "course",
-    "institution": "University Name",
-    "degree": "Bachelor's Degree in Computer Science",
-    "field": "Computer Science",
-    "duration": "2017 - 2021",
-    "location": "City, Country",
-    "grade": "GPA: 3.6/4.0",
-    "description": "Comprehensive foundation in computer science fundamentals, programming, and mathematics.",
+    "id": 8,
+    "type": "certification",
+    "institution": "IES Clara del Rey",
+    "degree": "Big Data Specialist",
+    "field": "Data Science",
+    "duration": "2022-2023",
+    "location": "Madrid, Community of Madrid",
+    "description": "Specialized program focusing on big data technologies, data analysis, and machine learning. Covered tools such as Hadoop, Spark, and data visualization techniques to handle and analyze large datasets effectively.",
     "courses": [
-      "Data Structures",
-      "Database Systems",
-      "Web Development",
-      "Operating Systems"
+      "Data Analysis",
+      "Machine Learning",
+      "Hadoop",
+      "Hive",
+      "Spark",
+      "Data Visualization",
+      "Nifi",
+      "Kafka"
+    ],
+    "achievements": []
+  },
+  {
+    "id": 7,
+    "type": "course",
+    "institution": "Udemy Business",
+    "degree": "Scala from zero",
+    "field": "Big Data",
+    "duration": "2022",
+    "location": "Online",
+    "description": "Introduction to Scala programming language, covering basics to advanced concepts. Focused on functional programming, object-oriented programming, and practical applications of Scala in big data processing.",
+    "courses": [
+      "Scala Basics",
+      "Functional Programming",
+      "Object-Oriented Programming",
+      "Collections and Data Structures",
+      "Error Handling",
+      "Concurrency in Scala"
+    ],
+    "achievements": []
+  },
+  {
+    "id": 6,
+    "type": "course",
+    "institution": "Udemy Business",
+    "degree": "JavaScript Prototypes",
+    "field": "Web Development",
+    "duration": "2022",
+    "location": "Online",
+    "description": "Specialized program focusing on JavaScript prototypes, object-oriented programming, and advanced JavaScript concepts. Covered prototype chains, inheritance, and practical applications of prototypes in web development.",
+    "courses": [
+      "Data Analysis",
+      "Machine Learning",
+      "Hadoop",
+      "Hive",
+      "Spark",
+      "Data Visualization",
+      "Nifi",
+      "Kafka"
+    ],
+    "achievements": []
+  },
+  {
+    "id": 5,
+    "type": "course",
+    "institution": "Bottega Academy",
+    "degree": "Full Stack Web Development Bootcamp",
+    "field": "Web Development",
+    "duration": "2021-2022",
+    "location": "Online",
+    "description": "Intensive bootcamp covering front-end and back-end web development technologies, including HTML, CSS, JavaScript, React, Node.js, and databases. Focused on practical projects and real-world applications to build a strong foundation in full stack development.",
+    "courses": [
+      "HTML & CSS",
+      "JavaScript Fundamentals",
+      "React.js",
+      "Node.js & Express",
+      "Database Management",
+      "Version Control with Git"
     ],
     "achievements": [
-      "Graduated with Honors",
-      "President of Computer Science Club",
-      "Completed 3 internships"
+      "Completed capstone project: Twitter Clone",
+      "Top 10% of the cohort",
+      "Knowledgeable in Agile development practices"
+    ]
+  },
+   {
+    "id": 4,
+    "type": "course",
+    "institution": "Bottega Academy",
+    "degree": "Coding Foundations",
+    "field": "Web Development",
+    "duration": "2021",
+    "location": "Online",
+    "description": "Foundational course in web development covering essential technologies such as HTML, CSS, JavaScript, and basic web design principles. Emphasized hands-on learning through projects and exercises to build a solid understanding of web development basics.",
+    "courses": [
+      "HTML & CSS",
+      "JavaScript Basics",
+      "Web Design Principles",
+      "Responsive Design",
+      "Version Control with Git"
+    ],
+    "achievements": [
+
     ]
   },
   {
     "id": 3,
     "type": "school",
-    "institution": "High School Name",
-    "degree": "High School Diploma",
-    "field": "Science & Technology",
-    "duration": "2013 - 2017",
-    "location": "City, Country",
-    "grade": "GPA: 3.9/4.0",
-    "description": "Focus on mathematics, physics, and computer science courses.",
+    "institution": "IES Clara del Rey",
+    "degree": "DAM + DAW (Dual)",
+    "field": "Computer Science",
+    "duration": "2019 - 2022",
+    "location": "Madrid, Community of Madrid",
+    "description": "Dual vocational training in Development of Multiplatform Applications (DAM) and Development of Web Applications (DAW). Gained practical experience through internships and real-world projects, focusing on software development, web technologies, and application design.",
     "courses": [
-      "Advanced Mathematics",
-      "Physics",
-      "Introduction to Programming",
-      "Chemistry"
+      "Object-Oriented Programming",
+      "Web Development",
+      "Database Management",
+      "Mobile Application Development",
+      "Software Engineering"
     ],
     "achievements": [
-      "Valedictorian",
-      "National Merit Scholar",
-      "Science Fair Winner"
+      "Honorable mention",
+      "Best student project award",
+      "Internship excellence recognition"
     ]
   },
   {
-    "id": 4,
-    "type": "certification",
-    "institution": "AWS",
-    "degree": "AWS Certified Solutions Architect",
-    "field": "Cloud Computing",
-    "duration": "2023",
-    "location": "Online",
-    "grade": "Professional Level",
-    "description": "Comprehensive certification demonstrating expertise in designing distributed systems on AWS.",
+    "id": 2,
+    "type": "degree",
+    "institution": "Carlos III University",
+    "degree": "Computer Science and Engineering",
+    "field": "Computer Science",
+    "duration": "2018 - 2019",
+    "location": "Madrid, Community of Madrid",
+    "description": "Bachelor's degree in Computer Science and Engineering, covering fundamental topics such as algorithms, data structures, software development, databases, and computer architecture. Gained practical experience through projects and internships.",
     "courses": [
-      "EC2 & Elastic Load Balancing",
-      "S3 & CloudFront",
-      "RDS & DynamoDB",
-      "VPC & Security Groups"
+      "Data Structures and Algorithms",
+      "Database Systems",
+      "Operating Systems",
+      "Software Engineering",
+      "Computer Networks",
+      "Programming Languages"
     ],
-    "achievements": [
-      "Passed with 90% score",
-      "Completed hands-on labs",
-      "Built sample architecture projects"
-    ]
+    "achievements": []
+  },
+  {
+    "id": 1,
+    "type": "school",
+    "institution": "IES Montesclaros",
+    "degree": "Upper secondary Education (Bachillerato)",
+    "field": "Technological Sciences",
+    "duration": "2016 - 2018",
+    "location": "Reinosa, Cantabria",
+    "description": "Upper secondary education with a focus on technological subjects, including mathematics, physics, and computer science. Prepared for higher education in engineering and technology fields.",
+    "courses": [
+      "Advanced Mathematics",
+      "Physics",
+      "Industrial Technology",
+      "Drawing and Design"
+    ],
+    "achievements": []
   }
 ]

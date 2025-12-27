@@ -6,7 +6,6 @@ interface EducationCardProps {
   institution: string;
   location: string;
   duration: string;
-  grade: string;
   showDetails: boolean;
   onClick: () => void;
   icon: string;
@@ -21,7 +20,6 @@ export default function EducationCard({
   institution,
   location,
   duration,
-  grade,
   showDetails,
   onClick,
   icon,
@@ -47,7 +45,6 @@ export default function EducationCard({
         institution={institution}
         location={location}
         duration={duration}
-        grade={grade}
         showDetails={showDetails}
         isLeft={isLeft}
       />
