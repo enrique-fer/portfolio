@@ -2,6 +2,7 @@ import type { JSX } from "react";
 import { Route, Routes } from "react-router-dom";
 import Home from "../../pages/Home";
 import Experience from "../../pages/Experience";
+import Education from "../../pages/Education";
 
 export interface RouteElement {
   path: string;
@@ -11,6 +12,7 @@ export interface RouteElement {
 export default function CoreRouter() {
   const routes: RouteElement[] = [
     { path: "/", element: <Home /> },
+    { path: "/education", element: <Education /> },
     { path: "/experience", element: <Experience /> },
   ];
 

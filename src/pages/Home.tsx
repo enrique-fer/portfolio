@@ -15,7 +15,7 @@ export default function Home() {
     <>
       <NavigationHeader showName={false} />
 
-      <div className="flex-1 w-full flex items-center justify-center p-6 sm:p-8 lg:p-12 w-auto">
+      <div className="min-h-screen flex-1 w-full flex items-center justify-center p-6 sm:p-8 lg:p-12 w-auto">
         <div className="max-w-6xl w-full space-y-12 lg:space-y-16">
           <IntroductionSection />
 

@@ -1,6 +1,6 @@
 import NavigationHeader from "../components/nav-header";
-import TimelineItem from "../components/TimelineItem";
-import CareerSummary from "../components/CareerSummary";
+import TimelineItem from "../components/experience/TimelineItem";
+import CareerSummary from "../components/experience/CareerSummary";
 import experienceData from "../assets/data/experience-data.json";
 
 interface Experience {
@@ -36,7 +36,7 @@ export default function Experience() {
     <>
       <NavigationHeader />
       
-      <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white py-12 px-6 sm:px-8 lg:px-12">
+      <div className="min-h-screen py-12 px-6 sm:px-8 lg:px-12">
         <div className="max-w-4xl mx-auto">
           {/* Page Header */}
           <div className="mb-12 text-center">
