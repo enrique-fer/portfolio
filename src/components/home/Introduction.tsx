@@ -20,7 +20,7 @@ export default function Introduction() {
           Software Developer
         </p>
         <p className="text-base italic text-gray-700 font-light">
-          (Full Stack | UX enthusiast)
+          (Front End | UX enthusiast)
         </p>
       </div>
 
