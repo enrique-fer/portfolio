@@ -18,12 +18,12 @@ export default function NavigationHeader({
             <div className="font-lg font-bold text-white px-6 py-1 bg-[#1872A0] rounded-full">
               <span>Enrique Fernández Santiago</span>
             </div>
-            <div className="font-md italic px-6 border border-[4px] border-[#1872A0] w-fit rounded-full">
+            <div className="font-md italic px-6 border border-[4px] border-[#1872A0] bg-[#f9fafb] w-fit rounded-full">
               <span>Software Developer</span>
             </div>
           </div>
         ) : <div></div>}
-        <div className="flex gap-4 px-6 py-2 border border-[4px] border-[#1872A0] h-[36px] rounded-full items-center">
+        <div className="flex gap-4 px-6 py-2 border border-[4px] border-[#1872A0] h-[36px] bg-[#f9fafb] rounded-full items-center">
           <Link to="/" title="Home">
             <HomeIcon />
           </Link>

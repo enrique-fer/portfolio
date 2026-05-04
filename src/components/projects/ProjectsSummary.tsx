@@ -37,11 +37,11 @@ export default function ProjectsSummary({ stats }: ProjectsSummaryProps) {
           label="Technologies"
           color="text-purple-600"
         />
-        <StatItem
+        {/* <StatItem
           value={stats.companyProjects}
           label="Company Projects"
           color="text-green-600"
-        />
+        /> */}
       </div>
     </div>
   );

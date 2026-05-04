@@ -1,5 +1,22 @@
 [
   {
+    "id": 10,
+    "type": "certification",
+    "institution": "Certificates.dev",
+    "degree": "Junior React Developer",
+    "field": "Web Development",
+    "duration": "2026",
+    "location": "Online",
+    "description": "Provides the ability to work with core concepts and basic implementations, enhancing your credibility with employers and clients.",
+    "courses": [
+      "React Basics",
+      "React Hooks",
+      "State Management",
+      "JavaScript Basics"
+    ],
+    "achievements": []
+  },
+  {
     "id": 9,
     "type": "course",
     "institution": "Udemy Business",

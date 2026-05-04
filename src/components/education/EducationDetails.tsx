@@ -15,7 +15,7 @@ export default function EducationDetails({
   achievements = [],
 }: EducationDetailsProps) {
   return (
-    <div className="w-120">
+    <div className="w-100">
       <div className="bg-[#1872A0]/5 border-2 border-[#1872A0]/30 rounded-xl p-4">
         <div className="flex items-center space-x-2">
           <h4 className="text-sm font-bold text-[#1872A0] mb-2">

@@ -36,7 +36,7 @@ export default function EducationTimelineItem({
   const colorConfig = getTypeConfig(type);
 
   return (
-    <div className="relative pb-16">
+    <div className="relative pb-24">
       <TimelineLine isLast={isLast} />
 
       <div className={`flex ${isLeft ? 'flex-row' : 'flex-row-reverse'} items-center gap-12 px-6`}>

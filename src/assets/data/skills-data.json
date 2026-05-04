@@ -4,35 +4,43 @@
     "category": "technical",
     "name": "React",
     "description": "Building modern, scalable web applications with React and its ecosystem including hooks, context, and state management.",
-    "level": "Expert",
-    "percentage": 95
+    "level": "Advanced",
+    "percentage": 90
   },
   {
     "id": 2,
     "category": "technical",
     "name": "TypeScript",
     "description": "Developing type-safe applications with advanced TypeScript features, generics, and utility types.",
-    "level": "Advanced",
-    "percentage": 90
+    "level": "Expert",
+    "percentage": 95
   },
   {
     "id": 3,
     "category": "technical",
-    "name": "Node.js",
-    "description": "Creating backend services, REST APIs, and serverless functions with Node.js and Express.",
+    "name": "Tanstack Query",
+    "description": "State manager library to handle API calls and caching for data handling and optimization.",
     "level": "Advanced",
-    "percentage": 85
+    "percentage": 80
   },
   {
     "id": 4,
     "category": "technical",
-    "name": "Python",
-    "description": "Data analysis, automation, and backend development using Python and its rich ecosystem.",
-    "level": "Beginner",
-    "percentage": 60
+    "name": "React Flow",
+    "description": "Graphical customisable library that allows representation of relationships and create flows.",
+    "level": "Intermediate",
+    "percentage": 65
   },
   {
     "id": 5,
+    "category": "technical",
+    "name": "Python",
+    "description": "Data analysis, automation, and backend development using Python and its rich ecosystem.",
+    "level": "Beginner",
+    "percentage": 50
+  },
+  {
+    "id": 6,
     "category": "hard",
     "name": "System Design",
     "description": "Architecting scalable, maintainable software systems with proper design patterns and best practices.",
@@ -40,31 +48,23 @@
     "percentage": 85
   },
   {
-    "id": 6,
+    "id": 7,
     "category": "hard",
     "name": "Database Design",
     "description": "Designing efficient database schemas for both SQL and NoSQL databases with optimization strategies.",
-    "level": "Advanced",
-    "percentage": 80
-  },
-  {
-    "id": 7,
-    "category": "hard",
-    "name": "API Development",
-    "description": "Building RESTful and GraphQL APIs with proper authentication, documentation, and versioning.",
-    "level": "Expert",
-    "percentage": 90
+    "level": "Beginner",
+    "percentage": 55
   },
   {
     "id": 8,
     "category": "hard",
     "name": "Testing",
-    "description": "Unit, integration, and e2e testing using Jest, Testing Library, and Cypress.",
+    "description": "Unit, integration, and e2e testing using Vitest, Testing Library, and MSW.",
     "level": "Advanced",
-    "percentage": 85
+    "percentage": 80
   },
   {
-    "id": 9,
+    "id": 10,
     "category": "soft",
     "name": "Communication",
     "description": "Clearly conveying technical concepts to both technical and non-technical stakeholders.",
@@ -72,27 +72,35 @@
     "percentage": 95
   },
   {
-    "id": 10,
+    "id": 11,
     "category": "soft",
     "name": "Team Collaboration",
     "description": "Working effectively in cross-functional teams, pair programming, and code reviews.",
     "level": "Expert",
-    "percentage": 90
-  },
-  {
-    "id": 11,
-    "category": "soft",
-    "name": "Problem Solving",
-    "description": "Analytical thinking and creative solutions to complex technical challenges.",
-    "level": "Advanced",
-    "percentage": 88
+    "percentage": 94
   },
   {
     "id": 12,
+    "category": "soft",
+    "name": "Problem Solving",
+    "description": "Analytical thinking and creative solutions to complex technical challenges.",
+    "level": "Expert",
+    "percentage": 92
+  },
+  {
+    "id": 13,
     "category": "soft",
     "name": "Leadership",
     "description": "Mentoring junior developers, leading technical initiatives, and driving project success.",
     "level": "Advanced",
     "percentage": 82
+  },
+  {
+    "id": 14,
+    "category": "technical",
+    "name": "Node JS",
+    "description": "Multiplatform execution time environment, free source code, for the server side layer base in Javascript.",
+    "level": "Begginer",
+    "percentage": 50
   }
 ]

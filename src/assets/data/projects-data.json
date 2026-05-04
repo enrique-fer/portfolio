@@ -1,9 +1,9 @@
 [
   {
     "id": 3,
-    "title": "Arcade Risk",
+    "title": "Arcade Risk (Reboot)",
     "company": "ViewNext (IBM Subsidiary)",
-    "duration": "Apr 2025 - Present",
+    "duration": "Apr 2025 - March 2026",
     "goal": "Create the best underwriting platform for enterprise insurance.",
     "technologies": [
       "React",
@@ -12,10 +12,9 @@
       "Apiary",
       "Figma",
       "Vite Test",
-      "Tantack",
+      "Tanstack",
       "Recharts",
-      "React Flow",
-      "Zustand"
+      "React Flow"
     ],
     "responsibilities": [
       "Leading frontend development using React and Typescript to build scalable and maintainable user interfaces.",
@@ -47,7 +46,7 @@
   },
   {
     "id": 1,
-    "title": "Iberdrola Electric Vehicle Charging Station Management System",
+    "title": "Electric Vehicle Charging Station Management System",
     "company": "ViewNext (IBM Subsidiary)",
     "duration": "Sep 2021 - Jun 2022",
     "goal": "Create a comprehensive management system for electric vehicle charging stations, enabling users to locate, reserve, and pay for charging services seamlessly.",
