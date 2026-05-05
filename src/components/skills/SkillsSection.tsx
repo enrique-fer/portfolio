@@ -20,10 +20,10 @@ export default function SkillsSection({
   const [isExpanded, setIsExpanded] = useState(defaultExpanded);
 
   return (
-    <div className="mb-16">
+    <div className={`${isExpanded ? "mb-16" : "mb-6"}`}>
       <button
         onClick={() => setIsExpanded(!isExpanded)}
-        className="flex items-center gap-3 mb-6 w-full group hover:opacity-80 transition-opacity"
+        className="flex items-center gap-3 mb-6 w-full group hover:opacity-80 transition-opacity rounded rounded-full py-2 px-4 border border-3 border-[#e6e6e6]"
       >
         <span className="text-3xl">{icon}</span>
         <h2 className={`text-3xl font-bold ${color}`}>{title}</h2>
