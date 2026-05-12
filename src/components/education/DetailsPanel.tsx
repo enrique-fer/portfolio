@@ -1,8 +1,10 @@
+import type { EducationData } from "../../types/education";
 import EducationDetails from "./EducationDetails";
 
 interface DetailsPanelProps {
   field: string;
   description: string;
+  link?: EducationData["link"];
   courses: string[];
   achievements: string[];
 }
@@ -10,6 +12,7 @@ interface DetailsPanelProps {
 export default function DetailsPanel({
   field,
   description,
+  link,
   courses,
   achievements,
 }: DetailsPanelProps) {
@@ -17,6 +20,7 @@ export default function DetailsPanel({
     <EducationDetails
       field={field}
       description={description}
+      link={link}
       courses={courses}
       achievements={achievements}
     />

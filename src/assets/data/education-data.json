@@ -1,4 +1,49 @@
-[
+[{
+    "id": 11,
+    "type": "certification",
+    "institution": "Certificates.dev",
+    "degree": "Mid React Developer",
+    "field": "Web Development",
+    "duration": "2026",
+    "location": "Online",
+    "description": "Provides the ability to work with core concepts and basic implementations, enhancing and stablising core knowledge.",
+    "courses": [
+      "React",
+      "React Hooks",
+      "State Management",
+      "JavaScript",
+      "Data Fetching",
+      "Code Optimization"
+    ],
+    "achievements": [],
+    "link": {
+      "ref": "https://certificates.dev/react/certificates/a1c07989-f6d9-428e-9bf8-377d3fdff01e",
+      "img": "https://img.shields.io/badge/React_Certified-Mid--Level-61DAFB?style=for-the-badge&amp;logo=react&amp;logoColor=white&amp;labelColor=1A365D",
+      "alt": "React Mid-Level Certificate"
+    }
+  },
+  {
+    "id": 10,
+    "type": "certification",
+    "institution": "Certificates.dev",
+    "degree": "Junior React Developer",
+    "field": "Web Development",
+    "duration": "2026",
+    "location": "Online",
+    "description": "Provides the ability to work with core concepts and basic implementations, enhancing and stablising core knowledge.",
+    "courses": [
+      "React Basics",
+      "React Hooks",
+      "State Management",
+      "JavaScript Basics"
+    ],
+    "achievements": [],
+    "link": {
+      "ref": "https://certificates.dev/react/certificates/a171eb59-4fbd-4cd9-b459-27c37a4ee5d9",
+      "img": "https://img.shields.io/badge/React_Certified-Junior-61DAFB?style=for-the-badge&amp;logo=react&amp;logoColor=white&amp;labelColor=1A365D",
+      "alt": "React Junior Certificate"
+    }
+  },
   {
     "id": 10,
     "type": "certification",
@@ -119,7 +164,7 @@
       "Knowledgeable in Agile development practices"
     ]
   },
-   {
+  {
     "id": 4,
     "type": "course",
     "institution": "Bottega Academy",
@@ -135,9 +180,7 @@
       "Responsive Design",
       "Version Control with Git"
     ],
-    "achievements": [
-
-    ]
+    "achievements": []
   },
   {
     "id": 3,

@@ -4,6 +4,7 @@ import TimelineDot from "./TimelineDot";
 import EducationCard from "./EducationCard";
 import DetailsPanel from "./DetailsPanel";
 import { getTypeConfig } from "../../utils/educationTypeConfig";
+import type { EducationData } from "../../types/education";
 
 interface EducationItemProps {
   type: string;
@@ -13,6 +14,7 @@ interface EducationItemProps {
   duration: string;
   location: string;
   description: string;
+  link?: EducationData["link"];
   courses: string[];
   achievements: string[];
   isLast: boolean;
@@ -27,6 +29,7 @@ export default function EducationTimelineItem({
   duration,
   location,
   description,
+  link,
   courses,
   achievements,
   isLast,
@@ -39,13 +42,15 @@ export default function EducationTimelineItem({
     <div className="relative pb-24">
       <TimelineLine isLast={isLast} />
 
-      <div className={`flex ${isLeft ? 'flex-row' : 'flex-row-reverse'} items-center gap-12 px-6`}>
+      <div
+        className={`flex ${isLeft ? "flex-row" : "flex-row-reverse"} items-center gap-12 px-6`}
+      >
         <div className="flex-1"></div>
-        
+
         <TimelineDot />
 
         <div className="flex-1 relative">
-          <div className={`flex ${isLeft ? 'justify-start' : 'justify-end'}`}>
+          <div className={`flex ${isLeft ? "justify-start" : "justify-end"}`}>
             <div className="relative">
               <EducationCard
                 degree={degree}
@@ -63,14 +68,15 @@ export default function EducationTimelineItem({
               {/* Details Panel - Absolutely positioned */}
               <div
                 className={`absolute top-0 z-50 ${
-                  isLeft ? 'left-full ml-6' : 'right-full mr-6'
+                  isLeft ? "left-full ml-6" : "right-full mr-6"
                 } transition-all duration-300 ease-in-out ${
-                  showDetails ? 'opacity-100 visible' : 'opacity-0 invisible'
+                  showDetails ? "opacity-100 visible" : "opacity-0 invisible"
                 }`}
               >
                 <DetailsPanel
                   field={field}
                   description={description}
+                  link={link}
                   courses={courses}
                   achievements={achievements}
                 />

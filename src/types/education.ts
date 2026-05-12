@@ -7,6 +7,7 @@ export interface EducationData {
   duration: string;
   location: string;
   description: string;
+  link?: { ref: string; img?: string; alt?: string };
   courses: string[];
   achievements: string[];
 }

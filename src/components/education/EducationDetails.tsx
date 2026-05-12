@@ -1,9 +1,11 @@
+import type { EducationData } from "../../types/education";
 import CoursesList from "./CoursesList";
 import EducationAchievements from "./EducationAchievements";
 
 interface EducationDetailsProps {
   field: string;
   description: string;
+  link?: EducationData["link"];
   courses?: string[];
   achievements?: string[];
 }
@@ -11,6 +13,7 @@ interface EducationDetailsProps {
 export default function EducationDetails({
   field,
   description,
+  link,
   courses = [],
   achievements = [],
 }: EducationDetailsProps) {
@@ -36,6 +39,22 @@ export default function EducationDetails({
           <div className="flex-1">
             <EducationAchievements achievements={achievements} />
           </div>
+        </div>
+        <div>
+          {link && (
+            <div className="mt-3">
+              <h4 className="text-xs font-semibold text-gray-700 mb-1.5">
+                Badge
+              </h4>
+              <a href={link.ref} target="_blank reelnoopener">
+                {link.img ? (
+                  <img src={link.img} alt={link.alt || "Technology logo"} />
+                ) : (
+                  "Certificate"
+                )}
+              </a>
+            </div>
+          )}
         </div>
       </div>
     </div>

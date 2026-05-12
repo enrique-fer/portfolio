@@ -40,6 +40,7 @@ export default function EducationPage() {
                 duration={edu.duration}
                 location={edu.location}
                 description={edu.description}
+                link={edu.link}
                 courses={edu.courses}
                 achievements={edu.achievements}
                 isLast={index === education.length - 1}
